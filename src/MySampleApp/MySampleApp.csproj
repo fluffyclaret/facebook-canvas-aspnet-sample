@@ -45,7 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IMyFacebookAppSettings.cs" />
+    <Compile Include="IMyFacebookCanvasContext.cs" />
+    <Compile Include="MyFacebookCanvasContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MyFacebookSignedRequest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
