@@ -1,6 +1,7 @@
 ﻿
 namespace MySampleApp
 {
+
     public interface IMyFacebookAppSettings
     {
         string AppId { get; }
