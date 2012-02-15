@@ -17,6 +17,3 @@ new MyFacebookAppSettings
         SecureCanvasUrl = "https://localhost:44300/"
     })
 ```
-
-# License
-Apache 2.0 License
