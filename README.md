@@ -10,9 +10,9 @@ Set the appropriate AppId, AppSecret and CanvasPageName before running the sampl
 ```csharp
 new MyFacebookAppSettings
     {
-        AppId = "app_id"
-        AppSecret = "app_secret"
-        CanvasPageName = "mycanvasappname"  /* only the canvas page name and not the full url */
+        AppId = "app_id",
+        AppSecret = "app_secret",
+        CanvasPageName = "mycanvasappname",  /* only the canvas page name and not the full url */
         CanvasUrl = "http://localhost:2408/",
         SecureCanvasUrl = "https://localhost:44300/"
     })
